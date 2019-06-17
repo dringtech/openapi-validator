@@ -1,0 +1,29 @@
+{
+  "name": "@dringtech/openapi-validator",
+  "dependencies": {
+    "openapi-schema-validator": "^3.0.3",
+    "promise-fs": "^2.1.0",
+    "yaml": "^1.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.0",
+  "description": "Simple validator for OAS3 specs",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "validator",
+    "openapi",
+    "OAS3",
+    "test"
+  ],
+  "author": "Giles Dring <giles@dringtech.com>",
+  "license": "ISC"
+}
